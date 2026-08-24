@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLayoutEffect, useRef } from "react";
+import assets from '../assets/assets'
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { htaResourceData } from '../data/hubCenter';
