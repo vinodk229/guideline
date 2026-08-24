@@ -1,5 +1,4 @@
 import React from 'react'
-import assets from '../assets/assets'
 import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

@@ -51,7 +51,10 @@ const Login = () => {
             setLoading(false);
         }
     };
-
+   
+    if(loading){
+      console.log("loading ....")
+    }
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-800 via-blue-600 to-pink-500 flex items-center justify-center px-4 py-5">
 
