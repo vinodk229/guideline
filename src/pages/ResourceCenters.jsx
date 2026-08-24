@@ -1,5 +1,5 @@
 import React from 'react'
-import assets from '../assets/assets'
+
 import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -77,7 +77,7 @@ const ResourceCenters = () => {
           <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
           <div>
               <h1 className="text-2xl lg:text-4xl font-medium text-white">
-              About <span className="font-medium">CEG</span>
+               Resource Centres <span className="font-medium">(CRCs)</span>
               </h1>
 
               <div className="flex items-center gap-3 mt-4 text-sm">
@@ -90,7 +90,7 @@ const ResourceCenters = () => {
               <span className="text-slate-400">&gt;</span>
 
               <span className="text-white">
-                About Us
+               Resource Centres (CRCs)
               </span>
               </div>
           </div>
