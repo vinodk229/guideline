@@ -109,7 +109,7 @@ const ProcessOfGuideslineDevelopment = () => {
                 {/* Image */}
                 <div className="p-5 md:p-6">
                   <div className="flex min-h-[280px] items-center justify-center overflow-hidden rounded-xl border border-slate-200 bg-slate-50 p-3">
-                    <a href='https://www.dhr.gov.in/static/uploads/2026/07/b784d8cf04e325808a3ed07dccfa1b8a.pdf' target='_blank'>
+                    <a href='https://www.dhr.gov.in/static/uploads/2026/07/b784d8cf04e325808a3ed07dccfa1b8a.pdf' target='_blank' rel="noreferrer">
                         <img
                         src={assets.guidelines}
                         alt="Standard Operating Procedures"

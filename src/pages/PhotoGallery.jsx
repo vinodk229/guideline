@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from "react";
-import assets from '../assets/assets'
+
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa6";

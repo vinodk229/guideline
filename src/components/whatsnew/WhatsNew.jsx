@@ -1,7 +1,6 @@
 import React from 'react'
 import {
   Globe,
-  ChevronRight,
   ShieldCheck,
   FileText,
   Microscope,
@@ -9,7 +8,7 @@ import {
   ExternalLink,
 } from "lucide-react";
 
-import { Link } from 'react-router-dom';
+
 
   const categories = [
     {

@@ -20,7 +20,7 @@ import VideoSection from '../pages/VideoSection'
 import OngoingGuidelines from '../pages/OngoingGuidelines'
 
 // import DashboardLayout from '../layouts/DashboardLayout'
-import ProtectedRoute from './ProtectedRoute'
+
 import Login from '../pages/auth/Login'
 import Dashboard from '../pages/auth/Dashboard'
 import CompletedGuidelines from '../pages/CompletedGuidelines'
