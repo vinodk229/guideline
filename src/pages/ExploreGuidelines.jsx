@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'lucide-react'
 import { categories } from '../data/guideline'
 import { BsTwitterX } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa6";
