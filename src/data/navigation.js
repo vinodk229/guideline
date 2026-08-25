@@ -39,10 +39,10 @@ export const navigation = [
       }
     ],
   },
-  {
-    title: "Resource Hubs/Centres",
-    path: "/resource-hubs",
-  },
+  // {
+  //   title: "Resource Hubs/Centres",
+  //   path: "/resource-hubs",
+  // },
   {
     title: "What We Do",
     children: [

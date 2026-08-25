@@ -1,4 +1,6 @@
 import React from 'react'
+import {categories} from '../../data/guideline'
+
 import {
   Globe,
   ShieldCheck,
@@ -7,32 +9,6 @@ import {
   Database,
   ExternalLink,
 } from "lucide-react";
-
-
-
-  const categories = [
-    {
-      title: "Gazette Notification for National Registry",
-      pdf: "/pdfs/national-registry.pdf",
-    },
-    {
-      title: "Gazette Notification for UT Board With and Without Legislature",
-      pdf: "/pdfs/ut-board.pdf",
-    },
-    {
-      title: "Gazette Notification Appropriate Authority",
-      pdf: "/pdfs/appropriate-authority.pdf",
-    },
-    {
-      title: "Gazette Notification National ART and Surrogacy Board",
-      pdf: "/pdfs/national-art-surrogacy-board.pdf",
-    },
-    {
-      title:
-        "Gazette Notification for Removal of Difficulty (ART Act and Surrogacy Act, 2021)",
-      pdf: "/pdfs/removal-of-difficulty.pdf",
-    },
- ];
 
   const whatsNewData = [
   {
@@ -78,25 +54,30 @@ const importantLinks = [
   },
 ];
 
+
 const WhatsNew = () => {
   return (
     <section className="bg-white py-10 lg:py-16">
       <div className="container mx-auto px-5 lg:px-8">
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
           {/* Explore Guidelines */}
+         
           <div className="rounded-xl border border-gray-200 bg-white shadow-sm lg:col-span-3">
             <div className="flex items-center justify-between p-5">
               <h3 className="text-lg font-semibold text-gray-800 uppercase">
                 Explore Guidelines
               </h3>
-              <button className="text-sm font-medium text-blue-600 uppercase">
+              <a href='/explore-guidelines'
+               
+                className="text-[13px] font-medium uppercase bg-blue-400 rounded-md px-2 py-1 hover:bg-blue-800 text-white transition-colors"
+              >
                 View All
-              </button>
+              </a>
             </div>
               <div className="guideline-container max-h-[400px] overflow-y-auto">
                 <div className="w-full max-w-md overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
                   <div>
-                    {categories.map((item, index) => (
+                    {categories.slice(0, 8).map((item, index) => (
                       <a
                         key={index}
                         href={item.pdf}
@@ -129,7 +110,7 @@ const WhatsNew = () => {
 
                         {/* Title */}
                         <div className="min-w-0 flex-1">
-                          <h3 className="text-[15px] font-medium leading-6 text-gray-800 group-hover:text-blue-600">
+                          <h3 className="text-[15px] font-medium leading-6 text-gray-800 group-hover:text-blue-600 line-clamp-2">
                             {item.title}
                           </h3>
 
@@ -167,7 +148,7 @@ const WhatsNew = () => {
                What’s New
               </h3>
 
-              <button className="text-sm font-medium text-blue-600 uppercase">
+              <button className="text-[13px] font-medium uppercase bg-blue-400 rounded-md px-2 py-1 hover:bg-blue-800 text-white transition-colors">
                 View All
               </button>
             </div>
@@ -219,7 +200,7 @@ const WhatsNew = () => {
               <h3 className="text-lg font-semibold text-gray-800 uppercase">
                Important Links
               </h3>
-              <button className="text-sm font-medium text-blue-600 uppercase">
+              <button className="text-[13px] font-medium uppercase bg-blue-400 rounded-md px-2 py-1 hover:bg-blue-800 text-white transition-colors">
                 View All
               </button>
             </div>

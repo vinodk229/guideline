@@ -92,7 +92,7 @@ const KeyStatistics = () => {
             {skills.map((skill, index) => (
               <Link to={skill.path}
                 key={index}
-                className="w-auto h-[80px] sm:h-[100px] lg:h-[120px] xl:h-[128px] group rounded-full border bg-white border-gray-200 flex items-center px-5 transition-all duration-300 hover:shadow-lg"
+                className="w-auto h-[90px] sm:h-auto lg:h-[120px] xl:h-[128px] group rounded-full border bg-white border-gray-200 flex items-center px-5 transition-all duration-300 hover:shadow-lg"
               >
                 {/* Icon Circle */}
                 <div className="w-15 h-15 xl:w-24 xl:h-24 rounded-full bg-blue-800 flex items-center justify-center group-hover:bg-gray-900 transition-colors duration-300">

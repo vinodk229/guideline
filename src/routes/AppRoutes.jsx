@@ -24,6 +24,7 @@ import OngoingGuidelines from '../pages/OngoingGuidelines'
 import Login from '../pages/auth/Login'
 import Dashboard from '../pages/auth/Dashboard'
 import CompletedGuidelines from '../pages/CompletedGuidelines'
+import ExploreGuidelines from '../pages/ExploreGuidelines'
 const AppRoutes = () => {
   return (
     <BrowserRouter>
@@ -45,6 +46,7 @@ const AppRoutes = () => {
                 <Route path='/videos' element={<VideoSection />} />
                 <Route path='/ongoing-guidelines' element={<OngoingGuidelines/>} />
                 <Route path='/completed-guidelines' element={<CompletedGuidelines/>}/>
+                <Route path='/explore-guidelines' element={<ExploreGuidelines/>} />
                 <Route path='/contact' element={<Contact />}/>
            </Route>
            {/* admin Route */}
